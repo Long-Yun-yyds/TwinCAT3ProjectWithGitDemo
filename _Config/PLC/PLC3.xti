@@ -992,7 +992,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{F23ED4A1-7E20-4874-BFCD-6C06C9A432A0}" Name="PLC3" PrjFilePath="..\..\PLC3\PLC3.plcproj" TmcFilePath="..\..\PLC3\PLC3.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC3\PLC3.tmc" TmcHash="{7740F02A-B88A-9872-1256-9AFEC4AFFB78}">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC3\PLC3.tmc" TmcHash="{3AFB45E4-056A-9D72-4D89-A184529369E1}">
 			<Name>PLC3 Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="1">

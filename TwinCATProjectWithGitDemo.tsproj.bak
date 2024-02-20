@@ -7,6 +7,7 @@
 				<Cpu CpuId="12"/>
 				<Cpu CpuId="15"/>
 				<Cpu CpuId="19"/>
+				<IoIdleTask Affinity="#x00080000"/>
 			</Settings>
 		</System>
 	</Project>

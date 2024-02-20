@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1">
-  <POU Name="MAIN" Id="{a0390e4c-5c81-42ee-9909-4d93e224b592}">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{a0390e4c-5c81-42ee-9909-4d93e224b592}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+	iTest		:INT;
 END_VAR
-]]>
-    </Declaration>
+]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[iTest := iTest + 1;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

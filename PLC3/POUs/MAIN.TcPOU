@@ -4,6 +4,7 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	iTest		:INT;
+	el2008	AT%Q*		:ARRAY[1..8] OF BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>

@@ -14,10 +14,16 @@
 				<Task Id="3" Priority="4" CycleTime="40000" AmsPort="351" Affinity="#x00000001" AdtTasks="true">
 					<Name>Task 2</Name>
 				</Task>
+				<Task Id="7" Priority="21" CycleTime="100000" AmsPort="352" AdtTasks="true">
+					<Name>PlcTask</Name>
+				</Task>
 			</Tasks>
 		</System>
 		<Motion>
 			<NC File="NC.xti"/>
 		</Motion>
+		<Plc>
+			<Project File="PLC3.xti"/>
+		</Plc>
 	</Project>
 </TcSmProject>

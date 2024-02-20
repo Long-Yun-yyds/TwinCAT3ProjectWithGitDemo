@@ -25,5 +25,11 @@
 		<Plc>
 			<Project File="PLC3.xti"/>
 		</Plc>
+		<Io>
+			<Device File="Device 1 (EtherCAT).xti" Id="1"/>
+		</Io>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{08502002-0010-0500-0020-500810000403}" Id="#x02030010" Watchdog="04000000100000000400000004000000"/>
+	</Mappings>
 </TcSmProject>

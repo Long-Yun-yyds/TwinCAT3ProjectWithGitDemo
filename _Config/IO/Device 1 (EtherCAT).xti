@@ -15,7 +15,7 @@
 		<Box File="Term 1 (EK1100).xti" Id="1">
 			<EtherCAT PortABoxInfo="#x00ffffff"/>
 		</Box>
-		<Box File="Drive 4 (AX5021-0000-0002).xti" Id="4">
+		<Box File="Drive 4 (AX5106-0000-0214).xti" Id="4">
 			<EtherCAT PortABoxInfo="#x02000001"/>
 		</Box>
 		<EtherCAT DcSyncMode="3"/>

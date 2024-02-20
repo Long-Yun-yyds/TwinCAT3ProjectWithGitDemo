@@ -6,6 +6,132 @@
 	<Box Id="4" BoxType="9099" BoxFlags="#x00000020">
 		<Name>__FILENAME__</Name>
 		<ImageId>1000</ImageId>
+		<Xml>
+			<AX5XXXDriveTool>
+				<DialogSettings>
+					<DialogSetting Name="Power management" Channel="0">
+						<Property>
+							<Name>PowerSupplyType</Name>
+							<Value>1</Value>
+						</Property>
+					</DialogSetting>
+				</DialogSettings>
+				<StatusBar>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>135</Index>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>390</Index>
+						<Width>85</Width>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>95</Index>
+						<Width>100</Width>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>32821</Index>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>32973</Index>
+						<SubItem>Bit0</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>32973</Index>
+						<SubItem>Bit3</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>384</Index>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>135</Index>
+						<SubItem>ActualOperationMode</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33080</Index>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>32865</Index>
+						<SubItem>MotorBrakeUnlocked</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>380</Index>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>381</Index>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>32831</Index>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>Active</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>ReadyToEnable</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>IGreaterThanInom</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>IPeakLimitReached</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>IreductionActive</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>UmaxReached</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33221</Index>
+						<SubItem>FieldWeakeningActive</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>Active</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>ReadyToEnable</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>PosDirectionEnabled</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>NegDirectionEnabled</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>AccDecLimitationActive</SubItem>
+					</Element>
+					<Element option="1" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>vLimitationActive</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>vZeroReached</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>CmdMovPositive</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>33271</Index>
+						<SubItem>CmdMovNegative</SubItem>
+					</Element>
+					<Element option="0" SortOder="0" SubIdx="0">
+						<Index>32983</Index>
+					</Element>
+				</StatusBar>
+			</AX5XXXDriveTool>
+		</Xml>
 		<EtherCAT SlaveType="2" PdiType="#x0c08" MboxDataLinkLayer="true" StateMBoxPolling="true" CfgModeSafeOp="true" DownloadPdoCfg="true" CycleMBoxPollingTime="0" FoeType="1" SoeChannels="1" VendorId="#x00000002" ProductCode="#x13f26012" RevisionNo="#x00d60000" InfoDataAddr="true" InfoDataSoeDS401="true" InfoDataDcTimes="true" TimeoutStateChange2="15000" TimeoutStateChange3="10000" TimeoutStateChange4="500" AutoRestoreAfterWcOk="true" CheckRevisionNoType="4" PortPhys="12305" IdentificationAdo="308" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="AX5106-0000-0214 EtherCAT Drive (SoE, 1 Ch.)" Desc="AX5106-0000-0214">
 			<SyncMan>001880002600010001000000800080008000001826010000</SyncMan>
 			<SyncMan>001a80002200010002000000800080008000001a22010000</SyncMan>
@@ -28,6 +154,13 @@
 			<MBoxUserCmdData>020005000a000000170000000000000000000000000000000000000000000000034002000000000010275473637963202d20436f6d6d206379636c652074696d6500</MBoxUserCmdData>
 			<MBoxUserCmdData>020005000a0000000e000000000000000000000000000000000000000000000003402000000000000b004f7065726174696f6e206d6f646500</MBoxUserCmdData>
 			<MBoxUserCmdData>004005000a0000001e0000000000000000000000000000000000000000000000034030810000000001005265706f727420646961676e6f737469637320696e666f726d6174696f6e00</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000a0000001500000000000000000000000000000000000000000000000340c98000000000fc084e6f6d696e616c206d61696e7320766f6c7461676500</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000a0000002600000000000000000000000000000000000000000000000340ca8000000000c8004d61696e7320766f6c7461676520706f73697469766520746f6c6572616e63652072616e676500</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000a0000002600000000000000000000000000000000000000000000000340cb8000000000c8004d61696e7320766f6c74616765206e6567617469766520746f6c6572616e63652072616e676500</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000a0000001d00000000000000000000000000000000000000000000000340cc8000000000010a506f776572206d616e6167656d656e7420636f6e74726f6c20776f726400</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000c00000013000000000000000000000000000000000000000000000003404f000000000000000001506f736974696f6e207265736f6c7574696f6e00</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000a00000017000000000000000000000000000000000000000000000003406800000000007b00506f736974696f6e206c6f6f70204b762d666163746f7200</MBoxUserCmdData>
+			<MBoxUserCmdData>020005000c0000001f00000000000000000000000000000000000000000000000340640000000000d011000056656c6f63697479206c6f6f702070726f706f7274696f6e616c206761696e00</MBoxUserCmdData>
 			<Pdo Name="AT" Index="#x0010" Flags="#x0001" SyncMan="3">
 				<Entry Name="Drive status word" Index="#x0087" Flags="#x00000800">
 					<Type>UINT</Type>

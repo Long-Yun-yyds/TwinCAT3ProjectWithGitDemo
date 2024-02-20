@@ -4,9 +4,7 @@
 		<System>
 			<Settings MaxCpus="20" NonWinCpus="1" RouterMemory="536870912">
 				<Cpu/>
-				<Cpu CpuId="12"/>
-				<Cpu CpuId="15"/>
-				<Cpu CpuId="19"/>
+				<Cpu CpuId="19" BaseTime="1000"/>
 				<IoIdleTask Affinity="#x00080000"/>
 			</Settings>
 		</System>

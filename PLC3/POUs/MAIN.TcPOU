@@ -5,10 +5,14 @@
 VAR
 	iTest		:INT;
 	el2008	AT%Q*		:ARRAY[1..8] OF BOOL;
+	fbBlink				:BLINK;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[iTest := iTest + 1;]]></ST>
+      <ST><![CDATA[iTest := iTest + 1;
+
+fbBlink(ENABLE:=TRUE,TIMEHIGH:=T#500MS,TIMELOW:=T#500MS);
+el2008[1] := fbBlink.OUT;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>

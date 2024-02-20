@@ -8,8 +8,11 @@
 				<IoIdleTask Affinity="#x00000001"/>
 			</Settings>
 			<Tasks>
-				<Task Id="2" Priority="1" CycleTime="200000" AmsPort="350" AdtTasks="true">
+				<Task Id="2" Priority="20" CycleTime="200000" AmsPort="350" AdtTasks="true">
 					<Name>Task 1</Name>
+				</Task>
+				<Task Id="3" Priority="4" CycleTime="40000" AmsPort="351" AdtTasks="true">
+					<Name>Task 2</Name>
 				</Task>
 			</Tasks>
 		</System>

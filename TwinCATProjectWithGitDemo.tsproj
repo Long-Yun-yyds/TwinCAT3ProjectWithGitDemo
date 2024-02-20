@@ -16,5 +16,8 @@
 				</Task>
 			</Tasks>
 		</System>
+		<Motion>
+			<NC File="NC.xti"/>
+		</Motion>
 	</Project>
 </TcSmProject>

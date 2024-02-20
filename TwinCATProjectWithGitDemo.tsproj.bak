@@ -3,9 +3,9 @@
 	<Project ProjectGUID="{06208666-4E84-437F-8AAF-79C5B4BDCCC7}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Settings MaxCpus="20" NonWinCpus="1" RouterMemory="536870912">
-				<Cpu/>
+				<Cpu RtLimit="90"/>
 				<Cpu CpuId="19" BaseTime="1000"/>
-				<IoIdleTask Affinity="#x00080000"/>
+				<IoIdleTask Affinity="#x00000001"/>
 			</Settings>
 		</System>
 	</Project>

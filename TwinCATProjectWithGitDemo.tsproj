@@ -7,6 +7,11 @@
 				<Cpu CpuId="19" BaseTime="1000"/>
 				<IoIdleTask Affinity="#x00000001"/>
 			</Settings>
+			<Tasks>
+				<Task Id="2" Priority="1" CycleTime="100000" AmsPort="350" AdtTasks="true">
+					<Name>Task 1</Name>
+				</Task>
+			</Tasks>
 		</System>
 	</Project>
 </TcSmProject>

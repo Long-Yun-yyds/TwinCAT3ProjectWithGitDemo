@@ -2,7 +2,7 @@
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.55">
 	<Project ProjectGUID="{06208666-4E84-437F-8AAF-79C5B4BDCCC7}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
-			<Settings RouterMemory="268435456"/>
+			<Settings MaxCpus="20" NonWinCpus="1" RouterMemory="268435456"/>
 		</System>
 	</Project>
 </TcSmProject>
